@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+section {
+    width: 70vw;
+    margin: auto;
+}
+
+/* header area */
+
+.header__area {
+    margin: 10px 0;
+}
+.header__area a {
+    text-decoration: none;
+    color: rgba(41, 79, 95, 0.781);
+    transition: 0.1333s ease-in;
+}
+.header__area a:hover {
+    color: rgba(0, 0, 0, 0.763);
+}
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left__bar {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.header__navigation .left__bar img {
+    width: 90px;
+    height: auto;
+}
+.header__navigation .left__bar > .bar__items {
+    margin-right: 10px;
+}
+#store {
+    color: #fab533;
+}
+#store:hover {
+    color: rgba(255, 68, 0, 0.729);
+}
+.right__bar .premium {
+    padding: 5px 8px;
+    color: #ffa400;
+    border: 1px solid #ffa400;
+    border-radius: 4px;
+    transition: 0.2s ease-in;
+}
+.right__bar .premium:hover {
+    background-color: #ffa400;
+    color: #fff;
+}
+/* main area */
+
+.main__area {
+    background-color: #eceff1;
+    height: 90vh;
+}
+.container {
+    text-align: center;
+    width: 20vw;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgb(4, 7, 8);
+}
+.main__area .form__logo img {
+    width: 100px;
+    height: auto;
+    padding: 30px 0;
+}
+.form__area .form__input {
+    padding: 10px 0;
+}
+.form__area .form__input input {
+    padding: 13px 125px 13px 10px;
+    border: 1px solid rgb(216, 209, 209);
+    border-radius: 4px;
+    color: rgba(10, 169, 237, 0.781);
+}
+.form__signin {
+    padding: 15px 0;
+}
+.form__area .form__signin a {
+    display: block;
+    margin: auto;
+    width: 84%;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 30px;
+    background-image: linear-gradient(to right, #286078, #576d76);
+    border-radius: 4px;
+}
+.form__area .form__signin a:hover {
+    background-image: linear-gradient(to right, #576d76, #576f79);
+}
+.form__forgot--pass {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 20px;
+}
+.form__forgot--pass a {
+    color: #3c4579;
+    text-decoration: none;
+}
+
+.form__social {
+    padding: 12px 0 25px;
+}
+.form__social p {
+    color: rgb(185, 185, 185);
+    margin-bottom: 15px;
+}
+.form__social .social__sites {
+    transition: 0.2s ease-in;
+}
+.form__social .social__sites a {
+    margin: 10px;
+    font-size: 26px;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+.fa-google:hover {
+    color: orangered;
+}
+.fa-github:hover {
+    color: #000;
+}
+.fa-facebook:hover {
+    color: rgb(24, 24, 135);
+}
+.fa-twitter:hover {
+    color: rgb(42, 42, 205);
+}
+.form__term {
+    color: rgb(185, 185, 185);
+    padding: 10px 30px 40px;
+}
+.form__term a {
+    color: rgb(185, 185, 185);
+}
+/* footer area */
+
+.footer__area {
+    margin: 12px 0;
+    width: 70vw;
+    position: absolute;
+    bottom: 0;
+}
+.footer__area a {
+    text-decoration: none;
+    color: rgba(46, 44, 44, 0.8);
+    transition: 0.1333s ease-in;
+}
+.footer__area a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.763);
+}
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__area .footer__navigation:nth-of-type(1) {
+    color: gray;
+}
+.footer__area .left__bar {
+    gap: 20px;
+}
+.footer__area .right__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer__area .right__bar img {
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
