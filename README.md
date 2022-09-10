@@ -4,7 +4,7 @@
 
 <br>
 
-> Here I attached the original leetcode login page screenshot and for my one kindly check this link: [LeetCode Login Page Clone](nazsakib.github.io/leetcode-login-page)
+> Here I attached the original leetcode login page screenshot and for my one kindly check this link: [LeetCode Login Page Clone](https://nazsakib.github.io/leetcode-login-page/)
 
 <br>
 
